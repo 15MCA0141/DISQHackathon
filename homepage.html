@@ -1,14 +1,13 @@
 <html>
 <title>Homepage</title>
-<body style="background-color:lightyellow">
+<body style="background-color:black">
 <?php
 $s= $_SESSION["user"];
 ?>
 <marquee direction="up">
-<b><center><label style="color:white;font-size:20;background-color:green">-----VIT University Vellore welcomes you to----- <?php echo "HELLO" ?> </label></center></b>
+<b><center><label style="color:white;font-size:20;background-color:green">-----VIT University Vellore welcomes you to----- </label></center></b>
 </marquee>
 </body>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
 * {
     box-sizing: border-box;
@@ -58,11 +57,12 @@ html {
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 .footer {
-    background-color: black;
+    background-color: green;
     color: #ffffff;
     text-align: center;
     font-size: 14px;
     padding: 15px;
+	position:relative;
 }
 /* For desktop: */
 .col-1 {width: 8.33%;}
@@ -90,15 +90,6 @@ html {
     background-color:yellow;
 	color:black;
 }
-
-
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    [class*="col-"] {
-        width: 100%;
-    }
-	
-}
 </style>
 </head>
 
@@ -112,8 +103,8 @@ html {
 		<td><strong><a href="homepage.html"><font size="+2">Home</font></a></td>
 		<td><strong><a href="passes.html" ><font size="+2">Passes</font></a></td>
 		<td><strong><a href="schedule.html" ><font size="+2">Schedule</font></a></td>
-		<td><strong><a href="services.html"><font size="+2">Events</font></a></td>
-		<td><strong><a href="notifications.html"><font size="+2">Notifications</font></a></td>
+		<td><strong><a href="#"><font size="+2">Events</font></a></td>
+		<td><strong><a href="#"><font size="+2">Notifications</font></a></td>
 		<td><strong><a href="login.html" ><font size="+2">Logout</font></strong></td>
 		</tr>
 </table>
@@ -155,7 +146,6 @@ html {
 <p>Control Room, Beside Anna Auditorium</p>
 </div>
 </div>
-
 </div>
 
 <div class="footer">
