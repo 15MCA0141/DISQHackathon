@@ -1,0 +1,151 @@
+<html>
+<title>Login</title>
+<form method="post"action="homepage.html">
+<body style="background-color:lightyellow">
+<marquee direction="left">
+<b><center><label style="color:white;font-size:20;background-color:red">&nbsp Welcome to VIT RIVIERA 2016 &nbsp </label></center></b>
+</marquee>
+</body>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+    box-sizing: border-box;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
+.header {
+    background-color: #9933cc;
+    color: #ffffff;
+    padding: 13px;
+	width:100%;
+	position:relative;
+	text-align:center;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color :#33b5e5;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.menu li:hover {
+    background-color: #0099cc;
+}
+.aside {
+    background-color: #33b5e5;
+    padding: 15px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.footer {
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+	position: absolute;
+	bottom: 1px;
+	width: 100%;	
+}
+.but{
+width:100%;
+height:40px;
+background-color:red;
+color:white;
+}
+
+.txt{
+width:300;
+height:40px;
+background-color:F6F3A4;
+color:black;
+}
+
+.lbl{
+	color:lime;
+}
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+ a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/* Change the link color to #111 (black) on hover */
+ a:hover {
+    background-color:yellow;
+	color:black;
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+	
+}
+</style>
+</head>
+
+<body>
+<div class="header">
+<h1>VIT RIVIERA 2016</h1>
+</div>
+<img src="image/riv.JPG"style="position:absolute;width:400px;height:250px;top:35%;right:1%">
+<img src="image/theme.JPG" style="position:absolute;width:400px;height:250px;top:35%;left:1%">
+<div style="position:absolute;left:35%;top:40%;border-style:ridge;border-width:10px;background-color:black">
+<table>
+<th colspan=2 style="color:white;background-color:blue"><center>LOGIN<center></th>
+<tr>
+<td><label class="lbl">Username </label></td>
+<td><input type=email class="txt" name=un id=un placeholder="Usename"required></input></td>
+</tr>
+<tr>
+<td><label class="lbl">Password </label></td>
+<td><input type=password class="txt" name=pw id=pw placeholder="Password"required></input></td>
+</tr>
+<tr>
+<td colspan="2"><center><input type=submit class="but" placeholder="Password"required></center></input></td>
+</tr>
+</table>
+</div>
+<div class="footer">
+<p>Developed by Kushal Kumar...Powered By Mathurasini Developers (P) Ltd.</p>
+</div>
+</body>
+</form>
+</html>
+

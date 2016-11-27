@@ -1,0 +1,167 @@
+<html>
+<title>Homepage</title>
+<body style="background-color:lightyellow">
+<?php
+$s= $_SESSION["user"];
+?>
+<marquee direction="up">
+<b><center><label style="color:white;font-size:20;background-color:green">-----VIT University Vellore welcomes you to----- <?php echo "HELLO" ?> </label></center></b>
+</marquee>
+</body>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+    box-sizing: border-box;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
+.header {
+    background-color: #9933cc;
+    color: #ffffff;
+    padding: 13px;
+	width:1300px;
+	position:relative;
+	left:1%;
+	text-align:center;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color :#33b5e5;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.menu li:hover {
+    background-color: #0099cc;
+}
+.aside {
+    background-color: #33b5e5;
+    padding: 15px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.footer {
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    padding: 15px;
+}
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+ a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/* Change the link color to #111 (black) on hover */
+ a:hover {
+    background-color:yellow;
+	color:black;
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+	
+}
+</style>
+</head>
+
+<body>
+<div class="header">
+<h1>VIT RIVIERA 2016 [Unmask the Mask]</h1>
+</div>
+<div class="col-10">
+<table border='0' align='center' cellpadding='5' cellspacing='0' width="1300">
+		<tr align='center' bgcolor='red'>
+		<td><strong><a href="homepage.html"><font size="+2">Home</font></a></td>
+		<td><strong><a href="passes.html" ><font size="+2">Passes</font></a></td>
+		<td><strong><a href="schedule.html" ><font size="+2">Schedule</font></a></td>
+		<td><strong><a href="services.html"><font size="+2">Events</font></a></td>
+		<td><strong><a href="notifications.html"><font size="+2">Notifications</font></a></td>
+		<td><strong><a href="login.html" ><font size="+2">Logout</font></strong></td>
+		</tr>
+</table>
+</div>
+
+<div class="row">
+
+<div class="col-3 menu">
+<ul>
+<li style="background-color:yellow;color:green"><b>Highlights</b></li>
+<li>Theme Launch</li>
+<li>Music Launch</li>
+<li>T-Shirts & Hoodies Exibition</li>
+<li>Marathon</li>
+<li>Inaugration</li>
+<li>Pro Show-Day1</li>
+<li>Pro Show-Day2</li>
+<li>Pro Show-Day3</li>
+<li>Pro Show-Day4</li>
+</ul>
+</div>
+
+<div class="col-6">
+<h1 style="color:red">Riviera 2016</h1>
+<p style="text-align:justify;color:grey"><b>VIT University Vellore is going to launch its annual cultural fest <i>" Riviera - 2016 "</i> like every year. This year our theme of the fest will be <i>"Unmask the mask"</i>, which will be going to a huge event with the appearance of popular celebrities.</b></p>
+</div>
+<image src="image/theme.jpg"width="300"height="200"style="position:absolute;left:27%;top:75%">
+<image src="image/riv.jpg"width="300"height="200"style="position:absolute;right:27%;top:75%">
+<div class="col-3 right">
+<div class="aside">
+<h2>CONTACT US</h2>
+<p>Mobile : 9972210926</p>
+<p href="http://www.mail.google.com">Email : riviera2016@vit.ac.in</p>
+<p>------------------------------------------------------------</p>
+<h2>VISIT US</h2>
+<h3>Main Office</h3>
+<p>MGR Building, VIT University, Vellore</p>
+<h3>Event Registration</h3>
+<p>Control Room, Beside Anna Auditorium</p>
+</div>
+</div>
+
+</div>
+
+<div class="footer">
+<p>Developed by Kushal Kumar...Powered By Mathurasini Developers (P) Ltd.</p>
+</div>
+
+</body>
+</html>
+
